@@ -1,0 +1,27 @@
+{
+  "name": "ricky-bot",
+  "version": "1.0.0",
+  "description": "This is a simple bot that returns Trailer Park Boys Quotes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyork95/ricky-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Cody York (CoYoFroYo, cyork95)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cyork95/ricky-bot/issues"
+  },
+  "homepage": "https://github.com/cyork95/ricky-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "eslint": "^7.19.0"
+  }
+}
