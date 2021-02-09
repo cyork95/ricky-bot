@@ -1,5 +1,5 @@
 {
-    "add-role":"Adds specified role to the specified user.",
     "ricky-help":"Get help on any of the commands this bot has.",
-    "ricky-info":"Sends some bot info."
+    "ricky-info":"Sends some bot info.",
+    "tpb":"Returns a random Trailor Park Boys Quote."
 }
