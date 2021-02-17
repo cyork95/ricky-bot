@@ -169,12 +169,11 @@ const quotes = ['Mr. Lahey: \nWhere ya stayin\' Rick? \n\nRicky:\nAt the fuck-of
 	'Cyrus: \nSafety\'s... always off',
 	'Mr. Lahey: \nRandy get the errrrr pepper grinderrrrr and errrrr some dish soap. Cya George',
 ];
-
 module.exports = {
 	name: 'tpb',
 	description: 'Get a random trailer park boys quote.',
 	execute(message) {
 		const quoteObject = quotes[Math.floor(Math.random() * quotes.length)];
-		message.guild.channels.cache.find(i => i.name === 'tpb_chat').send(`${quoteObject}`);
+		message.channel.send(`${quoteObject}`);
 	},
 };
